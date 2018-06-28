@@ -24,7 +24,7 @@ calcRouter.use(function(request, response, next){
 
 calcRouter.route('/add')
     .get(function(request, response){
-        return validResponse(response, request.first + request.second);
+        return validResponse(response, request.first + request.second + 1);
     });
 
 calcRouter.route('/sub')
