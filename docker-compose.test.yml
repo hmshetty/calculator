@@ -1,13 +1,7 @@
 version: '3'
 
 services:
-  calculator:
-    build: 
-      context: .
-      dockerfile: Dockerfile_production
   sut:
     build:
       context: .
       dockerfile: Dockerfile_test
-    depends_on:
-      - calculator

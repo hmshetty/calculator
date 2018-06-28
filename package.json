@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node app.js",
-    "test": "mocha tests/test.js"
+    "test": "mocha tests/test.js --exit"
   },
   "dependencies": {
     "express": "4.16.3"
