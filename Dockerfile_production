@@ -1,0 +1,9 @@
+FROM node
+WORKDIR /usr/src/app
+COPY package.json .
+RUN npm install
+RUN mv /usr/src/app/node_modules /usr/src/node_modules
+COPY app.js .
+COPY routers ./routers
+EXPOSE 80
+CMD ["npm", "start"]

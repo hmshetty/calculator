@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha tests/test.js"
+  },
+  "dependencies": {
+    "express": "4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "chai": "4.1.2",
+    "chai-http": "4.0.0"
+  }
+}
